@@ -1,0 +1,13 @@
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.exe
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.deps.json
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.runtimeconfig.json
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.runtimeconfig.dev.json
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.dll
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.pdb
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.csprojAssemblyReference.cache
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.csproj.CoreCompileInputs.cache
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.AssemblyInfoInputs.cache
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.AssemblyInfo.cs
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.dll
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.pdb
+C:\Users\Jean Carlos\source\repos\Ejercicios_LibroCSharp\Teoría\Capítulo 2\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.genruntimeconfig.cache
