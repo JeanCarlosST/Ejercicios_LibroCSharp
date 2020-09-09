@@ -7,20 +7,15 @@ namespace Ejercicio1
         static void Main(string[] args)
         {
             string value = "";
-            float perimeter = 0.0f;
 
             Console.Write("Ingrese el número de lados del polígono: ");
             value = Console.ReadLine();
             int edges = Convert.ToInt32(value);
 
-            Console.WriteLine("Lados: {0}", edges);
-
-            for(int i = 0; i < edges; i++){
-                Console.Write("Ingrese la longitud del lado no. {0}: ", (i+1));
-                value = Console.ReadLine();
-                perimeter += Convert.ToSingle(value);
-            }
-
+            Console.Write("Ingrese la longitud de los lados: ");
+            value = Console.ReadLine();
+            float perimeter = Convert.ToSingle(value) * edges;
+           
             Console.WriteLine("Perímetro del polígono: {0}", perimeter);
             Console.ReadKey(true);
         }
