@@ -15,7 +15,7 @@ namespace Tarea2
                 Console.WriteLine("2. Ejercicio 4.2 Potencia");
                 Console.WriteLine("3. Ejercicio 4.5 Promedio");
                 Console.WriteLine("4. Ejercicio 5.4 Factorial");
-                Console.WriteLine("5. Ejercicio 5.5 Numero escrito");
+                Console.WriteLine("5. Ejercicio 5.5 Numero escrito (-999 -> +999)");
                 Console.Write("Opcion: ");
 
                 option = Convert.ToInt32(Console.ReadLine());

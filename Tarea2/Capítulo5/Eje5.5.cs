@@ -2,10 +2,20 @@ using System;
 
 public class Eje5_5{
     public static string Numeros(int n){
+        
         string number = "";
 
-        if(n < 0){
-            Console.Write("Negativo ");
+        if(Math.Abs(n) >= 1000)
+            return "Too much";
+
+        else if(n == 0)
+            return "cero";
+
+        else if(n == 100)
+            return "cien";
+
+        else if(n < 0){
+            number += "Negativo ";
             n *= -1;
         }
 
@@ -48,51 +58,56 @@ public class Eje5_5{
             }
         }
 
-        if(centenas){
+        div = res/10;
+        if(res%10 < 19)
             res = res%10;
-            if(res > 19) div = res/10;
-        }
 
         bool decena = false;
-        if(div > 1){
-            decena = true;
-            switch(div){
-                case 0: case 1:
-                    break;
-                case 2:
-                    number += "veinte";
-                    break;
-                case 3:
-                    number += "treinta";
-                    break;
-                case 4:
-                    number += "cuarenta";
-                    break;
-                case 5:
-                    number += "cincuenta";
-                    break;
-                case 6:
-                    number += "sesenta";
-                    break;
-                case 7:
-                    number += "setenta";
-                    break;
-                case 8:
-                    number += "ochenta";
-                    break;
-                case 9:
-                    number += "noventa";
-                    break;
-            }
+        switch(div){
+            case 0: 
+                break;
+            case 1:
+                res += 10;
+                break;
+            case 2:
+                number += "veinte";
+                decena = true;
+                break;
+            case 3:
+                number += "treinta";
+                decena = true;
+                break;
+            case 4:
+                number += "cuarenta";
+                decena = true;
+                break;
+            case 5:
+                number += "cincuenta";
+                decena = true;
+                break;
+            case 6:
+                number += "sesenta";
+                decena = true;
+                break;
+            case 7:
+                number += "setenta";
+                decena = true;
+                break;
+            case 8:
+                number += "ochenta";
+                decena = true;
+                break;
+            case 9:
+                number += "noventa";
+                decena = true;
+                break;
         }
 
         if(res > 0){
-            if(decena) number += "i";
+            if(decena && res < 10) number += "i";
+            if(!centenas && !decena) res = n;
         
             switch(res){
-                case 0: 
-                    number += "cero"; 
-                    break;
                 case 1: 
                     number += "uno"; 
                     break;
