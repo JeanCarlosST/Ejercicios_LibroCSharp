@@ -11,6 +11,7 @@ namespace Ejercicios_LibroCSharp
                 Console.WriteLine("0. Salir");
                 Console.WriteLine("1. Tarea 1");
                 Console.WriteLine("2. Tarea 2");
+                Console.WriteLine("3. Tarea 3");
                 Console.Write("Opcion: ");
 
                 option = Convert.ToInt32(Console.ReadLine());
@@ -25,11 +26,16 @@ namespace Ejercicios_LibroCSharp
                     case 2:
                         Tarea2.Tarea2.Menu();
                         break;
+                    case 3:
+                        Tarea3.Tarea3.Menu();
+                        break;
                 }
 
                 Console.ReadKey(true);
                 
             }while(option != 0);
+
+            Console.Clear();
         }
     }
 }

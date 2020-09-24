@@ -1,40 +1,43 @@
 ﻿using System;
-public class Eje3_4 {
-    public static void Dias() {
-        string value = "";
-        int num;
 
-        do{
-            Console.Write("Ingrese un número del 1 al 7: ");
-            value = Console.ReadLine();
+namespace Cap3{
+    public class Eje3_4 {
+        public static void Dias() {
+            string value = "";
+            int num;
 
-            num = Convert.ToInt32(value);
-        }while(num < 1 || num > 7);
+            do{
+                Console.Write("Ingrese un número del 1 al 7: ");
+                value = Console.ReadLine();
 
-        switch(num){
-            case 1:
-                Console.WriteLine("Lunes");
-                break;
-            case 2:
-                Console.WriteLine("Martes");
-                break;
-            case 3:
-                Console.WriteLine("Miercoles");
-                break;
-            case 4:
-                Console.WriteLine("Jueves");
-                break;
-            case 5:
-                Console.WriteLine("Viernes");
-                break;
-            case 6:
-                Console.WriteLine("Sábado");
-                break;
-            case 7:
-                Console.WriteLine("Domingo");
-                break;
+                num = Convert.ToInt32(value);
+            }while(num < 1 || num > 7);
+
+            switch(num){
+                case 1:
+                    Console.WriteLine("Lunes");
+                    break;
+                case 2:
+                    Console.WriteLine("Martes");
+                    break;
+                case 3:
+                    Console.WriteLine("Miercoles");
+                    break;
+                case 4:
+                    Console.WriteLine("Jueves");
+                    break;
+                case 5:
+                    Console.WriteLine("Viernes");
+                    break;
+                case 6:
+                    Console.WriteLine("Sábado");
+                    break;
+                case 7:
+                    Console.WriteLine("Domingo");
+                    break;
+            }
+
+            Console.ReadKey(true);
         }
-
-        Console.ReadKey(true);
     }
 }

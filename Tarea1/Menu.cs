@@ -1,4 +1,7 @@
 using System;
+using Cap1;
+using Cap2;
+using Cap3;
 
 namespace Tarea1 {
     class Tarea1 {

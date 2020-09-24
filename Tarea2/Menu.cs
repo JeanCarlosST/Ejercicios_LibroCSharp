@@ -1,4 +1,6 @@
 ﻿using System;
+using Cap4;
+using Cap5;
 
 namespace Tarea2
 {
