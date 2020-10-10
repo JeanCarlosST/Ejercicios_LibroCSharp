@@ -16,6 +16,7 @@ namespace Tarea5
                 Console.WriteLine("1. Ejercicio 10.1 Inventario");
                 Console.WriteLine("2. Ejercicio 10.2 Escuela");
                 Console.WriteLine("3. Ejercicio 12.1 Depuración de factorial");
+                Console.WriteLine("4. Ejercicio 12.2 Depuración de factorial por consola");
                 
                 Console.Write("Opcion: ");
                 option = Convert.ToInt32(Console.ReadLine());
@@ -31,6 +32,9 @@ namespace Tarea5
                         break;
                     case 3:
                         Eje12_1.Factorial();
+                        break;
+                    case 4:
+                        Eje12_2.Factorial();
                         break;
                 }
 
