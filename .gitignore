@@ -1,0 +1,9 @@
+obj
+obj/*.*
+obj/Debug/*.*
+
+bin
+bin/*.*
+bin/Debug/*.*
+
+.vscode

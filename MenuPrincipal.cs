@@ -13,6 +13,7 @@ namespace Ejercicios_LibroCSharp
                 Console.WriteLine("2. Tarea 2");
                 Console.WriteLine("3. Tarea 3");
                 Console.WriteLine("4. Tarea 4");
+                Console.WriteLine("5. Tarea 5");
                 Console.Write("Opcion: ");
 
                 option = Convert.ToInt32(Console.ReadLine());
@@ -32,6 +33,9 @@ namespace Ejercicios_LibroCSharp
                         break;
                     case 4:
                         Tarea4.Tarea4.Menu();
+                        break;
+                    case 5:
+                        Tarea5.Tarea5.Menu();
                         break;
                 }
 
